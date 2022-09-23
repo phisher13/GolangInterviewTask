@@ -1,0 +1,16 @@
+version: '1.19'
+
+
+services:
+  urls: 
+    build: ./
+    command: ./urls
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+  db:
+    restart: always
+    image: redis:latest
+    ports:
+      - 6379:6379
