@@ -1,6 +1,6 @@
 # Golang Interview Task
 
-<h2>Main target was create web service which shorted urls</h2>
+<h2>Main task was create web service which shorted urls</h2>
 <hr>
 
 ## App Stack:
